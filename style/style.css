@@ -1,0 +1,41 @@
+h1 {
+  font-size: 45px;
+  font-family: "Arial", Courier, monospace;
+}
+
+.header {
+  background-color: #ebebeb;
+  border-bottom: 1px solid #cdcdcd;
+  margin-top: 0;
+  max-height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scale-master {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 20px;
+  min-height: 40px;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+}
+
+button.active {
+  border: 2px solid #3a79ff;
+  background: #e6e6e6;
+}
+/*# sourceMappingURL=style.css.map */
